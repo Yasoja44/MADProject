@@ -7,6 +7,14 @@
     android:background="#ff4444"
     tools:context=".DoctorShow">
 
+    <View
+        android:id="@+id/view3"
+        android:layout_width="411dp"
+        android:layout_height="273dp"
+        android:background="#ff5555"
+        tools:layout_editor_absoluteX="-1dp"
+        tools:layout_editor_absoluteY="173dp" />
+
     <ImageView
         android:id="@+id/imageView8"
         android:layout_width="756dp"
@@ -31,14 +39,6 @@
         app:layout_constraintHorizontal_bias="0.333"
         app:layout_constraintStart_toStartOf="parent"
         tools:layout_editor_absoluteY="139dp" />
-
-    <View
-        android:id="@+id/view"
-        android:layout_width="411dp"
-        android:layout_height="273dp"
-        android:background="#ff5555"
-        tools:layout_editor_absoluteX="-1dp"
-        tools:layout_editor_absoluteY="173dp" />
 
     <TextView
         android:id="@+id/textView46"
