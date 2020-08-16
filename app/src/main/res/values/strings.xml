@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">MADProject</string>
+    <string name="room_service">ROOM SERVICE</string>
+    <string name="food_type">Food Type</string>
+    <string name="food_amount">Amount</string>
+    <string name="food_room_no">Room No</string>
+    <string name="food_date">Date</string>
+    <string name="food_time">Time</string>
+    <string name="food_id">Food ID</string>
+
+    <string name="doctor">DOCTOR</string>
+    <string name="doc_name">Doctor Name</string>
+    <string name="doc_speciality">Doctor Speciality</string>
+    <string name="doc_address">Doctor Address</string>
+    <string name="doc_phone">Doctor Phone</string>
+    <string name="doc_email">Doctor Email</string>
+    <string name="doc_id">Doctor ID</string>
+
+    <string name="edit">EDIT</string>
+    <string name="delete">DELETE</string>
+</resources>

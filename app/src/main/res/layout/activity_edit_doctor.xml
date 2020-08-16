@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerHorizontal="true"
+    tools:context=".EditDoctor">
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="408dp"
+        android:layout_height="39dp"
+        android:text="@string/doctor"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="123dp" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="105dp"
+        android:layout_height="24dp"
+        android:text="@string/doc_name"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_dark"
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="212dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="24dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="202dp" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/holo_red_light"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:context=".AddDoctor"
+        tools:layout_editor_absoluteY="25dp">
+
+        <ImageView
+            android:id="@+id/imageView11"
+            android:layout_width="756dp"
+            android:layout_height="241dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:srcCompat="@drawable/hotelpic"
+            tools:layout_editor_absoluteY="-101dp" />
+
+        <TextView
+            android:id="@+id/textView27"
+            android:layout_width="408dp"
+            android:layout_height="39dp"
+            android:background="@android:color/background_light"
+            android:fontFamily="sans-serif-black"
+            android:text="@string/doctor"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textSize="24sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.333"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="139dp" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="24dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            app:layout_constraintEnd_toEndOf="parent"
+            tools:layout_editor_absoluteY="187dp" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="24dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            app:layout_constraintEnd_toEndOf="parent"
+            tools:layout_editor_absoluteY="254dp" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="24dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.47" />
+
+        <EditText
+            android:id="@+id/editTextTextPostalAddress"
+            android:layout_width="208dp"
+            android:layout_height="49dp"
+            android:layout_marginEnd="24dp"
+            android:ems="10"
+            android:inputType="textPostalAddress"
+            app:layout_constraintEnd_toEndOf="parent"
+            tools:layout_editor_absoluteY="400dp" />
+
+        <EditText
+            android:id="@+id/editTextNumber"
+            android:layout_width="202dp"
+            android:layout_height="47dp"
+            android:ems="10"
+            android:inputType="number"
+            tools:layout_editor_absoluteX="186dp"
+            tools:layout_editor_absoluteY="486dp" />
+
+        <EditText
+            android:id="@+id/editTextTextEmailAddress2"
+            android:layout_width="204dp"
+            android:layout_height="42dp"
+            android:ems="10"
+            android:inputType="textEmailAddress"
+            tools:layout_editor_absoluteX="186dp"
+            tools:layout_editor_absoluteY="561dp" />
+
+        <TextView
+            android:id="@+id/textView23"
+            android:layout_width="105dp"
+            android:layout_height="24dp"
+            android:layout_marginStart="36dp"
+            android:text="Doctor ID"
+            android:textAlignment="gravity"
+            android:textColor="@android:color/background_dark"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="208dp" />
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="105dp"
+            android:layout_height="24dp"
+            android:layout_marginStart="36dp"
+            android:text="@string/doc_email"
+            android:textAlignment="gravity"
+            android:textColor="@android:color/background_dark"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="579dp" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="105dp"
+            android:layout_height="24dp"
+            android:layout_marginStart="36dp"
+            android:text="@string/doc_phone"
+            android:textAlignment="gravity"
+            android:textColor="@android:color/background_dark"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="509dp" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="105dp"
+            android:layout_height="24dp"
+            android:layout_marginStart="36dp"
+            android:text="@string/doc_address"
+            android:textAlignment="gravity"
+            android:textColor="@android:color/background_dark"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="425dp" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="120dp"
+            android:layout_height="25dp"
+            android:layout_marginStart="36dp"
+            android:text="@string/doc_speciality"
+            android:textAlignment="gravity"
+            android:textColor="@android:color/background_dark"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="343dp" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="105dp"
+            android:layout_height="24dp"
+            android:layout_marginStart="36dp"
+            android:text="@string/doc_name"
+            android:textAlignment="gravity"
+            android:textColor="@android:color/background_dark"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="273dp" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ADD"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="639dp" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

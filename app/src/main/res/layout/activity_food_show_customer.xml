@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_orange_dark"
+    tools:context=".FoodShowCustomer">
+
+    <TextView
+        android:id="@+id/textView32"
+        android:layout_width="419dp"
+        android:layout_height="41dp"
+        android:background="@android:color/background_light"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/room_service"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="147dp" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/hotelpic3"
+        tools:layout_editor_absoluteY="-34dp" />
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="414dp"
+        android:layout_height="269dp"
+        android:background="@android:color/holo_orange_light"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="194dp" />
+
+    <TextView
+        android:id="@+id/textView38"
+        android:layout_width="172dp"
+        android:layout_height="27dp"
+        android:text="F001"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="@color/colorPrimary"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="184dp"
+        tools:layout_editor_absoluteY="206dp" />
+
+    <TextView
+        android:id="@+id/textView33"
+        android:layout_width="172dp"
+        android:layout_height="27dp"
+        android:text="PIZZA"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="@color/colorPrimary"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="184dp"
+        tools:layout_editor_absoluteY="238dp" />
+
+    <TextView
+        android:id="@+id/textView34"
+        android:layout_width="172dp"
+        android:layout_height="27dp"
+        android:text="18:00"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="@color/colorPrimary"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="184dp"
+        tools:layout_editor_absoluteY="381dp" />
+
+    <TextView
+        android:id="@+id/textView35"
+        android:layout_width="172dp"
+        android:layout_height="27dp"
+        android:text="1"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="@color/colorPrimary"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="184dp"
+        tools:layout_editor_absoluteY="275dp" />
+
+    <TextView
+        android:id="@+id/textView36"
+        android:layout_width="172dp"
+        android:layout_height="27dp"
+        android:text="R01"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="@color/colorPrimary"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="184dp"
+        tools:layout_editor_absoluteY="312dp" />
+
+    <TextView
+        android:id="@+id/textView37"
+        android:layout_width="172dp"
+        android:layout_height="27dp"
+        android:text="22/05/2020"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="@color/colorPrimary"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.491"
+        tools:layout_editor_absoluteX="184dp" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="105dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="16dp"
+        android:text="@string/food_id"
+        android:textAlignment="gravity"
+        android:textColor="@android:color/background_dark"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="206dp" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="105dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="16dp"
+        android:text="Food"
+        android:textAlignment="gravity"
+        android:textColor="@android:color/background_dark"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="241dp" />
+
+    <TextView
+        android:id="@+id/textView28"
+        android:layout_width="105dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="16dp"
+        android:text="@string/food_amount"
+        android:textAlignment="gravity"
+        android:textColor="@android:color/background_dark"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="278dp" />
+
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_width="105dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="16dp"
+        android:text="@string/food_room_no"
+        android:textAlignment="gravity"
+        android:textColor="@android:color/background_dark"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="312dp" />
+
+    <TextView
+        android:id="@+id/textView30"
+        android:layout_width="105dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="16dp"
+        android:text="@string/food_date"
+        android:textAlignment="gravity"
+        android:textColor="@android:color/background_dark"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="346dp" />
+
+    <TextView
+        android:id="@+id/textView31"
+        android:layout_width="105dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="16dp"
+        android:text="@string/food_time"
+        android:textAlignment="gravity"
+        android:textColor="@android:color/background_dark"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="384dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="87dp"
+        android:layout_height="37dp"
+        android:background="@color/colorAccent"
+        android:text="@string/edit"
+        tools:layout_editor_absoluteX="97dp"
+        tools:layout_editor_absoluteY="422dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="79dp"
+        android:layout_height="36dp"
+        android:background="@color/colorAccent"
+        android:text="@string/delete"
+        tools:layout_editor_absoluteX="201dp"
+        tools:layout_editor_absoluteY="422dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
