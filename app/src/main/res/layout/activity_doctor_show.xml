@@ -7,13 +7,31 @@
     android:background="#ff4444"
     tools:context=".DoctorShow">
 
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="87dp"
+        android:layout_height="37dp"
+        android:background="@color/colorAccent"
+        android:text="@string/edit"
+        tools:layout_editor_absoluteX="89dp"
+        tools:layout_editor_absoluteY="436dp" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="79dp"
+        android:layout_height="36dp"
+        android:background="@color/colorAccent"
+        android:text="@string/delete"
+        tools:layout_editor_absoluteX="233dp"
+        tools:layout_editor_absoluteY="436dp" />
+
     <View
         android:id="@+id/view3"
         android:layout_width="411dp"
-        android:layout_height="273dp"
+        android:layout_height="304dp"
         android:background="#ff5555"
-        tools:layout_editor_absoluteX="-1dp"
-        tools:layout_editor_absoluteY="173dp" />
+        tools:layout_editor_absoluteX="-2dp"
+        tools:layout_editor_absoluteY="178dp" />
 
     <ImageView
         android:id="@+id/imageView8"
@@ -127,6 +145,7 @@
         android:text="Doctor ID"
         android:textAlignment="gravity"
         android:textColor="@android:color/background_dark"
+        android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         tools:layout_editor_absoluteY="195dp" />
 
@@ -138,6 +157,7 @@
         android:text="@string/doc_name"
         android:textAlignment="gravity"
         android:textColor="@android:color/background_dark"
+        android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         tools:layout_editor_absoluteY="229dp" />
 
@@ -149,6 +169,7 @@
         android:text="@string/doc_speciality"
         android:textAlignment="gravity"
         android:textColor="@android:color/background_dark"
+        android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         tools:layout_editor_absoluteY="264dp" />
 
@@ -160,6 +181,7 @@
         android:text="@string/doc_address"
         android:textAlignment="gravity"
         android:textColor="@android:color/background_dark"
+        android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         tools:layout_editor_absoluteY="299dp" />
 
@@ -172,7 +194,8 @@
         android:textAlignment="gravity"
         android:textColor="@android:color/background_dark"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="355dp" />
+        tools:layout_editor_absoluteY="355dp"
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/textView45"
@@ -182,6 +205,7 @@
         android:text="@string/doc_email"
         android:textAlignment="gravity"
         android:textColor="@android:color/background_dark"
+        android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         tools:layout_editor_absoluteY="391dp" />
 

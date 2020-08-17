@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ServicesShow">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:animateLayoutChanges="true"
+        android:background="@android:color/white"
+        android:fadingEdge="horizontal|vertical"
+        android:foreground="@color/cardview_light_background"
+        android:foregroundGravity="center"
+        tools:context=".Home">
+
+        <ImageButton
+            android:id="@+id/imageButton9"
+            style="@android:style/Widget.ImageButton"
+            android:layout_width="155dp"
+            android:layout_height="156dp"
+            android:layout_marginTop="76dp"
+            android:fadingEdgeLength="0dp"
+            android:scaleType="fitXY"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.214"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/van" />
+
+        <TextView
+            android:id="@+id/textView56"
+            android:layout_width="157dp"
+            android:layout_height="51dp"
+            android:layout_marginEnd="16dp"
+            android:text="@string/vehicle_label"
+            android:textAlignment="center"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            tools:layout_editor_absoluteY="130dp" />
+
+        <TextView
+            android:id="@+id/textView54"
+            android:layout_width="150dp"
+            android:layout_height="46dp"
+            android:layout_marginEnd="16dp"
+            android:text="@string/guide_label"
+            android:textAlignment="center"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            tools:layout_editor_absoluteY="309dp" />
+
+        <ImageButton
+            android:id="@+id/imageButton8"
+            style="@android:style/Widget.ImageButton"
+            android:layout_width="155dp"
+            android:layout_height="156dp"
+            android:layout_marginTop="436dp"
+            android:fadingEdgeLength="0dp"
+            android:scaleType="fitXY"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.214"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/docimage" />
+
+        <Button
+            android:id="@+id/button6"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="414dp"
+            android:layout_height="66dp"
+            android:background="@android:color/holo_red_dark"
+            android:text="@string/feedback_main"
+            android:textStyle="bold|italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.666"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="616dp" />
+
+        <TextView
+            android:id="@+id/textView55"
+            android:layout_width="146dp"
+            android:layout_height="44dp"
+            android:layout_marginEnd="20dp"
+            android:text="@string/doc_label"
+            android:textAlignment="center"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            tools:layout_editor_absoluteY="493dp" />
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar5"
+            android:layout_width="416dp"
+            android:layout_height="56dp"
+            android:background="@android:color/black"
+            android:minHeight="?attr/actionBarSize"
+            android:theme="?attr/actionBarTheme"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView16"
+            android:layout_width="176dp"
+            android:layout_height="55dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/logo2" />
+
+        <Button
+            android:id="@+id/button5"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="412dp"
+            android:layout_height="55dp"
+            android:background="@android:color/black"
+            android:text="@string/about_main"
+            android:textStyle="bold|italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="675dp" />
+
+        <Button
+            android:id="@+id/button7"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="82dp"
+            android:layout_height="43dp"
+            android:layout_marginTop="6dp"
+            android:text="LOGIN"
+            android:textColor="@android:color/background_dark"
+            app:layout_constraintEnd_toEndOf="@+id/toolbar5"
+            app:layout_constraintStart_toEndOf="@+id/imageView16"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageButton
+            android:id="@+id/imageButton"
+            style="@android:style/Widget.ImageButton"
+            android:layout_width="190dp"
+            android:layout_height="176dp"
+            android:layout_marginTop="248dp"
+            android:fadingEdgeLength="0dp"
+            android:scaleType="fitXY"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.158"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/guide" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

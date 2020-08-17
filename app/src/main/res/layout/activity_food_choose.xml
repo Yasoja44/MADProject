@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@android:color/holo_orange_dark"
+    android:background="@android:color/background_light"
     tools:context=".FoodChoose">
 
     <TextView
@@ -18,7 +18,7 @@
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:textColor="@android:color/black"
         android:textSize="30sp"
-        android:textStyle="italic"
+        android:textStyle="bold|italic"
         app:layout_constraintEnd_toEndOf="parent"
         tools:layout_editor_absoluteY="269dp" />
 
@@ -33,7 +33,7 @@
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:textColor="@android:color/black"
         android:textSize="30sp"
-        android:textStyle="italic"
+        android:textStyle="bold|italic"
         app:layout_constraintEnd_toEndOf="parent"
         tools:layout_editor_absoluteY="441dp" />
 
@@ -51,7 +51,7 @@
         android:id="@+id/textView2"
         android:layout_width="413dp"
         android:layout_height="40dp"
-        android:background="@android:color/background_light"
+        android:background="@android:color/holo_orange_light"
         android:fontFamily="sans-serif-black"
         android:text="@string/room_service"
         android:textAlignment="center"
@@ -82,7 +82,7 @@
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:textColor="@android:color/black"
         android:textSize="30sp"
-        android:textStyle="italic"
+        android:textStyle="bold|italic"
         app:layout_constraintEnd_toEndOf="parent"
         tools:layout_editor_absoluteY="624dp" />
 

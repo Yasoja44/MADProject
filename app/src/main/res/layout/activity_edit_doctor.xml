@@ -143,6 +143,8 @@
             android:text="Doctor ID"
             android:textAlignment="gravity"
             android:textColor="@android:color/background_dark"
+            android:textSize="14sp"
+            android:textStyle="bold"
             app:layout_constraintStart_toStartOf="parent"
             tools:layout_editor_absoluteY="208dp" />
 
@@ -154,6 +156,8 @@
             android:text="@string/doc_email"
             android:textAlignment="gravity"
             android:textColor="@android:color/background_dark"
+            android:textSize="14sp"
+            android:textStyle="bold"
             app:layout_constraintStart_toStartOf="parent"
             tools:layout_editor_absoluteY="579dp" />
 
@@ -165,6 +169,8 @@
             android:text="@string/doc_phone"
             android:textAlignment="gravity"
             android:textColor="@android:color/background_dark"
+            android:textSize="14sp"
+            android:textStyle="bold"
             app:layout_constraintStart_toStartOf="parent"
             tools:layout_editor_absoluteY="509dp" />
 
@@ -176,6 +182,8 @@
             android:text="@string/doc_address"
             android:textAlignment="gravity"
             android:textColor="@android:color/background_dark"
+            android:textSize="14sp"
+            android:textStyle="bold"
             app:layout_constraintStart_toStartOf="parent"
             tools:layout_editor_absoluteY="425dp" />
 
@@ -187,6 +195,8 @@
             android:text="@string/doc_speciality"
             android:textAlignment="gravity"
             android:textColor="@android:color/background_dark"
+            android:textSize="14sp"
+            android:textStyle="bold"
             app:layout_constraintStart_toStartOf="parent"
             tools:layout_editor_absoluteY="343dp" />
 
@@ -198,14 +208,18 @@
             android:text="@string/doc_name"
             android:textAlignment="gravity"
             android:textColor="@android:color/background_dark"
+            android:textSize="14sp"
+            android:textStyle="bold"
             app:layout_constraintStart_toStartOf="parent"
             tools:layout_editor_absoluteY="273dp" />
 
         <Button
             android:id="@+id/button2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="97dp"
+            android:layout_height="44dp"
+            android:background="@color/colorAccent"
             android:text="ADD"
+            android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.498"
             app:layout_constraintStart_toStartOf="parent"

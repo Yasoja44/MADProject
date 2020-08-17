@@ -18,4 +18,14 @@
 
     <string name="edit">EDIT</string>
     <string name="delete">DELETE</string>
+
+    <string name="vehicle_label">VEHICLES</string>
+    <string name="doc_label">DOCTORS</string>
+    <string name="guide_label">GUIDES</string>
+
+    <string name="booking_main">BOOKING</string>
+    <string name="room_main">ROOM SERVICES</string>
+    <string name="services_main">OTHER SERVICES</string>
+    <string name="feedback_main">FEEDBACK</string>
+    <string name="about_main">ABOUT</string>
 </resources>

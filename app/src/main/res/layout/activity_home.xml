@@ -4,25 +4,147 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:animateLayoutChanges="true"
+    android:background="@android:color/background_dark"
+    android:fadingEdge="horizontal|vertical"
+    android:foregroundGravity="center"
     tools:context=".Home">
 
+    <Button
+        android:id="@+id/button6"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="414dp"
+        android:layout_height="66dp"
+        android:background="@android:color/holo_red_dark"
+        android:text="@string/feedback_main"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.666"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="616dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton5"
+        android:layout_width="450dp"
+        android:layout_height="186dp"
+        android:layout_marginTop="4dp"
+        android:adjustViewBounds="true"
+        android:fadeScrollbars="false"
+        android:scaleType="fitXY"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.333"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button7"
+        app:srcCompat="@drawable/book" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="439dp"
+        android:layout_height="170dp"
+        android:layout_marginTop="12dp"
+        android:adjustViewBounds="true"
+        android:fadeScrollbars="false"
+        android:scaleType="fitXY"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton2"
+        app:srcCompat="@drawable/ser" />
+
+    <TextView
+        android:id="@+id/textView55"
+        android:layout_width="145dp"
+        android:layout_height="76dp"
+        android:layout_marginEnd="16dp"
+        android:text="@string/services_main"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="540dp" />
+
     <androidx.appcompat.widget.Toolbar
-        android:id="@+id/toolbar"
-        android:layout_width="409dp"
-        android:layout_height="wrap_content"
-        android:background="?attr/colorPrimary"
+        android:id="@+id/toolbar5"
+        android:layout_width="416dp"
+        android:layout_height="56dp"
+        android:background="@android:color/black"
         android:minHeight="?attr/actionBarSize"
         android:theme="?attr/actionBarTheme"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="-2dp" />
-
-    <com.google.android.material.navigation.NavigationView
-        android:layout_width="408dp"
-        android:layout_height="678dp"
-        android:layout_marginTop="52dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="176dp"
+        android:layout_height="55dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo2" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="466dp"
+        android:layout_height="181dp"
+        android:layout_marginTop="12dp"
+        android:adjustViewBounds="true"
+        android:fadeScrollbars="false"
+        android:scaleType="fitXY"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.509"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton5"
+        app:srcCompat="@drawable/hospitality" />
+
+    <TextView
+        android:id="@+id/textView53"
+        android:layout_width="145dp"
+        android:layout_height="76dp"
+        android:layout_marginEnd="248dp"
+        android:text="@string/room_main"
+        android:textAlignment="center"
+        android:textColor="?attr/colorPrimaryDark"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="284dp" />
+
+    <TextView
+        android:id="@+id/textView52"
+        android:layout_width="153dp"
+        android:layout_height="48dp"
+        android:text="@string/booking_main"
+        android:textAlignment="center"
+        android:textColor="@color/cardview_light_background"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="233dp"
+        tools:layout_editor_absoluteY="83dp" />
+
+    <Button
+        android:id="@+id/button5"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="412dp"
+        android:layout_height="55dp"
+        android:background="@android:color/black"
+        android:text="@string/about_main"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="673dp" />
+
+    <Button
+        android:id="@+id/button7"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="82dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="6dp"
+        android:text="LOGIN"
+        android:textColor="@android:color/background_dark"
+        app:layout_constraintEnd_toEndOf="@+id/toolbar5"
+        app:layout_constraintStart_toEndOf="@+id/imageView16"
+        app:layout_constraintTop_toTopOf="parent" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
