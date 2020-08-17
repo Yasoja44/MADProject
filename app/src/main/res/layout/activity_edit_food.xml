@@ -54,6 +54,28 @@
         android:background="@android:color/holo_orange_dark"
         tools:context=".RoomServiceAdd">
 
+        <EditText
+            android:id="@+id/editTextTime2"
+            android:layout_width="210dp"
+            android:layout_height="39dp"
+            android:layout_marginEnd="12dp"
+            android:ems="10"
+            android:inputType="time"
+            app:layout_constraintEnd_toEndOf="parent"
+            tools:layout_editor_absoluteY="551dp" />
+
+        <TextView
+            android:id="@+id/textView59"
+            android:layout_width="105dp"
+            android:layout_height="24dp"
+            android:layout_marginStart="32dp"
+            android:text="@string/food_time"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_dark"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="566dp" />
+
         <TextView
             android:id="@+id/textView"
             android:layout_width="408dp"
@@ -136,12 +158,12 @@
             android:layout_width="105dp"
             android:layout_height="24dp"
             android:layout_marginStart="32dp"
-            android:text="@string/food_time"
+            android:text="@string/cusFood_id"
             android:textAlignment="center"
             android:textColor="@android:color/background_dark"
             android:textStyle="bold"
             app:layout_constraintStart_toStartOf="parent"
-            tools:layout_editor_absoluteY="566dp" />
+            tools:layout_editor_absoluteY="624dp" />
 
         <TextView
             android:id="@+id/textView5"
@@ -194,7 +216,7 @@
             android:ems="10"
             android:inputType="time"
             app:layout_constraintEnd_toEndOf="parent"
-            tools:layout_editor_absoluteY="559dp" />
+            tools:layout_editor_absoluteY="609dp" />
 
         <EditText
             android:id="@+id/editTextTextPersonName2"
@@ -209,12 +231,13 @@
             android:id="@+id/button"
             android:layout_width="97dp"
             android:layout_height="43dp"
+            android:layout_marginBottom="16dp"
             android:background="@color/colorAccent"
             android:text="ORDER"
             android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            tools:layout_editor_absoluteY="641dp" />
+            app:layout_constraintStart_toStartOf="parent" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
