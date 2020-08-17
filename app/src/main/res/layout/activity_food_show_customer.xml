@@ -35,13 +35,38 @@
 
     <View
         android:id="@+id/view2"
-        android:layout_width="414dp"
-        android:layout_height="269dp"
+        android:layout_width="411dp"
+        android:layout_height="312dp"
         android:background="@android:color/holo_orange_light"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         tools:layout_editor_absoluteY="194dp" />
+
+    <TextView
+        android:id="@+id/textView57"
+        android:layout_width="172dp"
+        android:layout_height="27dp"
+        android:text="18:00"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="@color/colorPrimary"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="184dp"
+        tools:layout_editor_absoluteY="381dp" />
+
+    <TextView
+        android:id="@+id/textView58"
+        android:layout_width="105dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="16dp"
+        android:text="@string/food_time"
+        android:textAlignment="gravity"
+        android:textColor="@android:color/background_dark"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="384dp" />
 
     <TextView
         android:id="@+id/textView38"
@@ -73,14 +98,14 @@
         android:id="@+id/textView34"
         android:layout_width="172dp"
         android:layout_height="27dp"
-        android:text="18:00"
+        android:text="C001"
         android:textAlignment="center"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
         android:textColor="@color/colorPrimary"
         android:textSize="15sp"
         android:textStyle="bold"
         tools:layout_editor_absoluteX="184dp"
-        tools:layout_editor_absoluteY="381dp" />
+        tools:layout_editor_absoluteY="417dp" />
 
     <TextView
         android:id="@+id/textView35"
@@ -188,12 +213,12 @@
         android:layout_width="105dp"
         android:layout_height="24dp"
         android:layout_marginStart="16dp"
-        android:text="@string/food_time"
+        android:text="@string/cusFood_id"
         android:textAlignment="gravity"
         android:textColor="@android:color/background_dark"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="384dp" />
+        tools:layout_editor_absoluteY="420dp" />
 
     <Button
         android:id="@+id/button3"
@@ -202,7 +227,7 @@
         android:background="@color/colorAccent"
         android:text="@string/edit"
         tools:layout_editor_absoluteX="97dp"
-        tools:layout_editor_absoluteY="422dp" />
+        tools:layout_editor_absoluteY="458dp" />
 
     <Button
         android:id="@+id/button4"
@@ -210,7 +235,7 @@
         android:layout_height="36dp"
         android:background="@color/colorAccent"
         android:text="@string/delete"
-        tools:layout_editor_absoluteX="242dp"
-        tools:layout_editor_absoluteY="422dp" />
+        tools:layout_editor_absoluteX="241dp"
+        tools:layout_editor_absoluteY="458dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

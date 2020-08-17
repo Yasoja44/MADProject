@@ -7,6 +7,7 @@
     <string name="food_date">Date</string>
     <string name="food_time">Time</string>
     <string name="food_id">Food ID</string>
+    <string name="cusFood_id">Customer ID</string>
 
     <string name="doctor">DOCTOR</string>
     <string name="doc_name">Doctor Name</string>
