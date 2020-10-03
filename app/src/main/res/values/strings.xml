@@ -29,4 +29,12 @@
     <string name="services_main">OTHER SERVICES</string>
     <string name="feedback_main">FEEDBACK</string>
     <string name="about_main">ABOUT</string>
+    <string name="editdelete">EDIT/DELETE</string>
+    <string name="food_name">Food</string>
+    <string name="order_id">Order ID</string>
+    <string name="food_search">Search</string>
+    <string name="Login_Main">Login</string>
+
+    <string name="channel_name_yaso">asd</string>
+    <string name="channel_description_yaso">ffff</string>
 </resources>

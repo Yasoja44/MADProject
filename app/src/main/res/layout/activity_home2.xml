@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".Home2">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="359dp"
+        android:layout_height="52dp"
+        android:background="@android:color/black"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageViewLogo2"
+        android:layout_width="175dp"
+        android:layout_height="51dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo2" />
+
+    <Button
+        android:id="@+id/btn_HomeLogin2"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="80dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="12dp"
+        android:text="@string/Login_Main"
+        android:textColor="@android:color/background_dark"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/L1"
+        android:layout_width="359dp"
+        android:layout_height="230dp"
+        android:layout_marginTop="32dp"
+        android:background="@color/common_google_signin_btn_text_dark_focused"
+        android:orientation="horizontal"
+        android:paddingHorizontal="10dp"
+        android:paddingVertical="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewLogo2">
+
+        <LinearLayout
+            android:layout_width="164dp"
+            android:layout_height="208dp"
+            android:background="@drawable/homebuttons"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/imgbtn_newHomeBooking"
+                android:layout_width="wrap_content"
+                android:layout_height="154dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+
+                android:background="@color/common_google_signin_btn_text_dark_default"
+                android:scaleType="fitXY"
+                android:src="@drawable/yasojaonlinebooking" />
+
+            <Button
+                android:id="@+id/btn_newHomeBooking"
+                android:layout_width="164dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:background="?android:attr/colorBackground"
+                android:text="Booking"
+                android:textAlignment="gravity"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="10dp"
+            android:layout_height="211dp"
+            android:orientation="vertical"></LinearLayout>
+
+        <LinearLayout
+            android:layout_width="164dp"
+            android:layout_height="208dp"
+            android:background="@drawable/homebuttons"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/imgbtn_newHomeRoom"
+                android:layout_width="wrap_content"
+                android:layout_height="154dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:background="@color/common_google_signin_btn_text_dark_default"
+                android:scaleType="fitXY"
+                android:src="@drawable/yasojabeds2" />
+
+            <Button
+                android:id="@+id/btn_newHomeRoom"
+                android:layout_width="164dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:background="@android:color/white"
+                android:backgroundTint="#F1ECEC"
+                android:text="Room Service"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="360dp"
+        android:layout_height="202dp"
+        android:orientation="vertical"
+        android:paddingHorizontal="10dp"
+        android:paddingVertical="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/L1">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/homebuttons"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/imgbtn_newHomeOther"
+                android:layout_width="188dp"
+                android:layout_height="125dp"
+                android:layout_marginLeft="70dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="50dp"
+                android:background="@color/common_google_signin_btn_text_dark_default"
+                android:scaleType="fitXY"
+                android:src="@drawable/yasojacustomerservice" />
+
+            <Button
+                android:id="@+id/btn_newHomeOther"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/common_google_signin_btn_text_dark_default"
+                android:text="Other Services"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="361dp"
+        android:layout_height="92dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <Button
+            android:id="@+id/btn_HomeFeedback2"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:background="@android:color/holo_red_dark"
+            android:text="@string/feedback_main"
+            android:textStyle="bold|italic" />
+
+        <Button
+            android:id="@+id/btn_HomeAbout2"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:background="@android:color/black"
+            android:text="@string/about_main"
+            android:textStyle="bold|italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btn_HomeFeedback2" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

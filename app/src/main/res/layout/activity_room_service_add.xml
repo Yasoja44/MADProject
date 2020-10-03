@@ -4,14 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@android:color/holo_orange_dark"
+    android:background="@drawable/yasoja_food_background"
     tools:context=".RoomServiceAdd">
 
     <TextView
         android:id="@+id/textView24"
-        android:layout_width="408dp"
-        android:layout_height="39dp"
-        android:background="@android:color/background_light"
+        android:layout_width="361dp"
+        android:layout_height="34dp"
+        android:background="@drawable/yasoja_text_custom2"
         android:fontFamily="sans-serif-black"
         android:text="@string/room_service"
         android:textAlignment="center"
@@ -21,126 +21,126 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="147dp" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView10" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="16dp"
+        android:id="@+id/txt_addAmount"
+        android:layout_width="306dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="16dp"
         android:ems="10"
+        android:padding="10dp"
+        android:background="@drawable/yasoja_edit_texts"
+        android:hint="@string/food_amount"
         android:inputType="textPersonName"
         app:layout_constraintEnd_toEndOf="parent"
-        tools:layout_editor_absoluteY="331dp" />
-
-    <TextView
-        android:id="@+id/textView4"
-        android:layout_width="105dp"
-        android:layout_height="24dp"
-        android:layout_marginStart="32dp"
-        android:text="@string/food_time"
-        android:textAlignment="center"
-        android:textColor="@android:color/background_dark"
-        android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="502dp" />
-
-    <TextView
-        android:id="@+id/textView5"
-        android:layout_width="105dp"
-        android:layout_height="24dp"
-        android:text="@string/food_amount"
-        android:textAlignment="center"
-        android:textColor="@android:color/background_dark"
-        android:textStyle="bold"
-        tools:layout_editor_absoluteX="32dp"
-        tools:layout_editor_absoluteY="257dp" />
-
-    <TextView
-        android:id="@+id/textView6"
-        android:layout_width="105dp"
-        android:layout_height="24dp"
-        android:text="@string/food_date"
-        android:textAlignment="center"
-        android:textColor="@android:color/background_dark"
-        android:textStyle="bold"
-        tools:layout_editor_absoluteX="32dp"
-        tools:layout_editor_absoluteY="422dp" />
-
-    <TextView
-        android:id="@+id/textView7"
-        android:layout_width="105dp"
-        android:layout_height="24dp"
-        android:text="@string/food_room_no"
-        android:textAlignment="center"
-        android:textColor="@android:color/background_dark"
-        android:textStyle="bold"
-        tools:layout_editor_absoluteX="32dp"
-        tools:layout_editor_absoluteY="341dp" />
+        app:layout_constraintTop_toBottomOf="@+id/txt_foodType" />
 
     <EditText
-        android:id="@+id/editTextDate"
-        android:layout_width="209dp"
+        android:id="@+id/txt_addTime"
+        android:layout_width="306dp"
         android:layout_height="37dp"
+        android:layout_marginTop="20dp"
         android:ems="10"
-        android:inputType="date"
-        tools:layout_editor_absoluteX="184dp"
-        tools:layout_editor_absoluteY="413dp" />
 
-    <EditText
-        android:id="@+id/editTextTime"
-        android:layout_width="210dp"
-        android:layout_height="39dp"
-        android:layout_marginEnd="16dp"
-        android:ems="10"
+        android:paddingLeft="35dp"
+        android:background="@drawable/yasoja_edit_texts"
+        android:hint="@string/food_time"
         android:inputType="time"
         app:layout_constraintEnd_toEndOf="parent"
-        tools:layout_editor_absoluteY="492dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_addDate" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="16dp"
+        android:id="@+id/txt_addDate"
+        android:layout_width="306dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="20dp"
         android:ems="10"
+        android:paddingLeft="35dp"
+        android:background="@drawable/yasoja_edit_texts"
+        android:hint="@string/food_date"
+        android:inputType="date"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_addRoomNo" />
+
+    <EditText
+        android:id="@+id/txt_addRoomNo"
+        android:layout_width="306dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:padding="10dp"
+        android:background="@drawable/yasoja_edit_texts"
+        android:hint="@string/food_room_no"
         android:inputType="textPersonName"
         app:layout_constraintEnd_toEndOf="parent"
-        tools:layout_editor_absoluteY="247dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_addAmount" />
 
     <TextView
-        android:id="@+id/textView8"
-        android:layout_width="419dp"
-        android:layout_height="35dp"
+        android:id="@+id/txt_foodType"
+        android:layout_width="361dp"
+        android:layout_height="28dp"
         android:background="@android:color/black"
         android:text="PIZZA"
         android:textAlignment="center"
         android:textColor="@color/colorAccent"
         android:textSize="18sp"
-        android:textStyle="italic"
+        android:textStyle="bold|italic"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="186dp" />
+        app:layout_constraintTop_toBottomOf="@+id/textView24" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btn_addOrder"
         android:layout_width="97dp"
         android:layout_height="43dp"
-        android:background="@color/colorAccent"
+        android:layout_marginTop="96dp"
+        android:background="@drawable/yasoja_custom_button"
+        android:onClick="onClick"
         android:text="ORDER"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="620dp" />
+        app:layout_constraintTop_toBottomOf="@+id/txt_addTime" />
 
     <ImageView
         android:id="@+id/imageView10"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="361dp"
+        android:layout_height="95dp"
+        android:scaleType="fitXY"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/hotelpic3"
-        tools:layout_editor_absoluteY="-34dp" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/hotelpic3" />
+
+    <ImageButton
+        android:id="@+id/imgbtn_AddFoodtimePick"
+        android:layout_width="26dp"
+        android:layout_height="29dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:background="@android:color/white"
+        android:scaleType="centerInside"
+        app:layout_constraintStart_toStartOf="@+id/txt_addTime"
+        app:layout_constraintTop_toTopOf="@+id/txt_addTime"
+        app:srcCompat="@drawable/clockyasoja" />
+
+    <ImageButton
+        android:id="@+id/imgbtn_AddFooddatePick"
+        android:layout_width="24dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:background="@android:color/white"
+        android:scaleType="centerInside"
+        app:layout_constraintStart_toStartOf="@+id/txt_addDate"
+        app:layout_constraintTop_toTopOf="@+id/txt_addDate"
+        app:srcCompat="@drawable/calendaryasoja2" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
