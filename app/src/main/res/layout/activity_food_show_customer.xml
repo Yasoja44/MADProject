@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/b2"
+    tools:context=".FoodShowCustomer">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/FoodCus_recycler_view"
+        android:layout_width="305dp"
+        android:layout_height="291dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView32"></androidx.recyclerview.widget.RecyclerView>
+
+    <TextView
+        android:id="@+id/textView32"
+        android:layout_width="357dp"
+        android:layout_height="34dp"
+        android:background="@drawable/yasoja_text_custom2"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/room_service"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView6" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="360dp"
+        android:layout_height="79dp"
+        android:scaleType="fitXY"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/hotelpic3" />
+
+    <Button
+        android:id="@+id/btn_cusEdit"
+        android:layout_width="115dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="31dp"
+        android:background="@color/colorAccent"
+        android:onClick="onClick"
+        android:text="@string/edit"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.13"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/FoodCus_recycler_view" />
+
+    <Button
+        android:id="@+id/btn_CusDelete"
+        android:layout_width="129dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="28dp"
+        android:backgroundTint="@color/colorAccent"
+        android:onClick="onClick"
+        android:text="@string/delete"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/FoodCus_recycler_view" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

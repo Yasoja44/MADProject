@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "276271500167",
+    "firebase_url": "https://authenticatorapp-9103c.firebaseio.com",
+    "project_id": "authenticatorapp-9103c",
+    "storage_bucket": "authenticatorapp-9103c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:276271500167:android:bdd8e7ca8c804f74eb2122",
+        "android_client_info": {
+          "package_name": "rob.sample.authenticatorapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "276271500167-ebbk93peecfup6al5gor16dsn7u9j3ht.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC8ZHs95jVLNjDbUBrKY0dETzAyVDplxZE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "276271500167-ebbk93peecfup6al5gor16dsn7u9j3ht.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

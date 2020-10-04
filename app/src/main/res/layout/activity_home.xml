@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:animateLayoutChanges="true"
+    android:background="@android:color/background_dark"
+    android:fadingEdge="horizontal|vertical"
+    android:foregroundGravity="center"
+    android:scrollbars="vertical"
+    tools:context=".Home">
+
+    <Button
+        android:id="@+id/btn_HomeFeedback"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="358dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="1dp"
+        android:background="@android:color/holo_red_dark"
+        android:text="@string/feedback_main"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.666"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_HomeOther" />
+
+    <ImageButton
+        android:id="@+id/btn_HomeBooking"
+        android:layout_width="392dp"
+        android:layout_height="176dp"
+        android:layout_marginTop="4dp"
+        android:adjustViewBounds="true"
+        android:fadeScrollbars="false"
+        android:scaleType="fitXY"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.333"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_HomeLogin"
+        app:srcCompat="@drawable/book" />
+
+    <ImageButton
+        android:id="@+id/btn_HomeOther"
+        android:layout_width="382dp"
+        android:layout_height="163dp"
+        android:layout_marginTop="8dp"
+        android:adjustViewBounds="true"
+        android:fadeScrollbars="false"
+        android:scaleType="fitXY"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_HomeFood"
+        app:srcCompat="@drawable/ser" />
+
+    <TextView
+        android:id="@+id/textView55"
+        android:layout_width="145dp"
+        android:layout_height="76dp"
+        android:layout_marginTop="88dp"
+        android:layout_marginEnd="16dp"
+        android:text="@string/services_main"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_HomeFood" />
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar5"
+        android:layout_width="361dp"
+        android:layout_height="46dp"
+        android:background="@android:color/black"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageViewLogo"
+        android:layout_width="175dp"
+        android:layout_height="47dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo2" />
+
+    <ImageButton
+        android:id="@+id/btn_HomeFood"
+        android:layout_width="382dp"
+        android:layout_height="161dp"
+        android:layout_marginTop="8dp"
+        android:adjustViewBounds="true"
+        android:fadeScrollbars="false"
+        android:scaleType="fitXY"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.48"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_HomeBooking"
+        app:srcCompat="@drawable/hospitality" />
+
+    <TextView
+        android:id="@+id/textView53"
+        android:layout_width="145dp"
+        android:layout_height="76dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/room_main"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_green_light"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/btn_HomeFood"
+        app:layout_constraintTop_toBottomOf="@+id/btn_HomeBooking" />
+
+    <TextView
+        android:id="@+id/textView52"
+        android:layout_width="153dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="27dp"
+        android:layout_marginEnd="52dp"
+        android:text="@string/booking_main"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/btn_HomeBooking"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar5" />
+
+    <Button
+        android:id="@+id/btn_HomeAbout"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="361dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="1dp"
+        android:background="@android:color/black"
+        android:text="@string/about_main"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_HomeFeedback" />
+
+    <Button
+        android:id="@+id/btn_HomeLogin"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="84dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="6dp"
+        android:text="@string/Login_Main"
+        android:textColor="@android:color/background_dark"
+        app:layout_constraintEnd_toEndOf="@+id/toolbar5"
+        app:layout_constraintStart_toEndOf="@+id/imageViewLogo"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/b2"
+    android:scrollbars="vertical"
+    tools:context=".EditFood">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="361dp"
+        android:layout_height="80dp"
+        android:scaleType="fitXY"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.022"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/hotelpic3" />
+
+    <EditText
+        android:id="@+id/txt_editOrderID"
+        android:layout_width="306dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/yasoja_edit_texts"
+        android:ems="10"
+        android:hint="@string/order_id"
+        android:inputType="textPersonName"
+        android:padding="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="360dp"
+        android:layout_height="35dp"
+        android:background="@drawable/yasoja_text_custom2"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/room_service"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <Button
+        android:id="@+id/btn_editEdit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="56dp"
+        android:background="@drawable/yasoja_custom_button"
+        android:onClick="onClick"
+        android:text="@string/edit"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_editTime" />
+
+    <EditText
+        android:id="@+id/txt_editDate"
+        android:layout_width="306dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/yasoja_edit_texts"
+        android:ems="10"
+        android:hint="@string/food_date"
+        android:inputType="date"
+        android:paddingLeft="35dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_editOrderID" />
+
+    <EditText
+        android:id="@+id/txt_editTime"
+        android:layout_width="306dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/yasoja_edit_texts"
+        android:ems="10"
+        android:hint="@string/food_time"
+        android:inputType="time"
+        android:paddingLeft="35dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_editDate" />
+
+    <ImageButton
+        android:id="@+id/imgbtn_EditFoodtimePick"
+        android:layout_width="23dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="7dp"
+        android:background="@android:color/white"
+        android:scaleType="centerInside"
+        app:layout_constraintStart_toStartOf="@+id/txt_editTime"
+        app:layout_constraintTop_toTopOf="@+id/txt_editTime"
+        app:srcCompat="@drawable/clockyasoja" />
+
+    <ImageButton
+        android:id="@+id/imgbtn_EditFooddatePick"
+        android:layout_width="23dp"
+        android:layout_height="23dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="7dp"
+        android:background="@android:color/white"
+        android:scaleType="centerInside"
+        app:layout_constraintStart_toStartOf="@+id/txt_editDate"
+        app:layout_constraintTop_toTopOf="@+id/txt_editDate"
+        app:srcCompat="@drawable/calendaryasoja2" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

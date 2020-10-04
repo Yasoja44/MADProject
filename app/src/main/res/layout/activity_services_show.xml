@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="vertical"
+    tools:context=".ServicesShow">
+
+
+    <ImageButton
+        android:id="@+id/imgbtn_ServiceVehicle"
+        style="@android:style/Widget.ImageButton"
+        android:layout_width="137dp"
+        android:layout_height="147dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="20dp"
+        android:fadingEdgeLength="0dp"
+        android:onClick="onClick"
+        android:scaleType="fitXY"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewLogo"
+        app:srcCompat="@drawable/van" />
+
+    <TextView
+        android:id="@+id/textView56"
+        android:layout_width="157dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="68dp"
+        android:layout_marginEnd="16dp"
+        android:text="@string/vehicle_label"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar5" />
+
+    <TextView
+        android:id="@+id/textView54"
+        android:layout_width="150dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginEnd="16dp"
+        android:text="@string/guide_label"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView56" />
+
+    <ImageButton
+        android:id="@+id/imgbtn_ServiceDoctor"
+        style="@android:style/Widget.ImageButton"
+        android:layout_width="133dp"
+        android:layout_height="126dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="16dp"
+        android:fadingEdgeLength="0dp"
+        android:onClick="onClick"
+        android:scaleType="fitXY"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgbtn_ServiceGuide"
+        app:srcCompat="@drawable/docimage" />
+
+    <TextView
+        android:id="@+id/textView55"
+        android:layout_width="146dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="104dp"
+        android:layout_marginEnd="20dp"
+        android:text="@string/doc_label"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView54" />
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar5"
+        android:layout_width="361dp"
+        android:layout_height="49dp"
+        android:background="@android:color/black"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageViewLogo"
+        android:layout_width="177dp"
+        android:layout_height="48dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo2" />
+
+    <ImageButton
+        android:id="@+id/imgbtn_ServiceGuide"
+        style="@android:style/Widget.ImageButton"
+        android:layout_width="163dp"
+        android:layout_height="152dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="12dp"
+        android:fadingEdgeLength="0dp"
+        android:onClick="onClick"
+        android:scaleType="fitXY"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgbtn_ServiceVehicle"
+        app:srcCompat="@drawable/guide" />
+
+    <Button
+        android:id="@+id/btn_ServiceFeedback"
+        android:layout_width="358dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="16dp"
+        android:background="@android:color/holo_red_dark"
+        android:text="@string/feedback_main"
+        android:textColor="@color/common_google_signin_btn_text_dark_default"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgbtn_ServiceDoctor" />
+
+    <Button
+        android:id="@+id/btn_ServiceAbout"
+        android:layout_width="391dp"
+        android:layout_height="58dp"
+        android:backgroundTint="@android:color/black"
+        android:text="@string/about_main"
+        android:textColor="@color/common_google_signin_btn_text_dark_default"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.666"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_ServiceFeedback" />
+
+    <Button
+        android:id="@+id/btn_ServiceLogin"
+        android:layout_width="76dp"
+        android:layout_height="33dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="12dp"
+        android:background="@color/colorAccent"
+        android:onClick="onClick"
+        android:text="@string/Login_Main"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

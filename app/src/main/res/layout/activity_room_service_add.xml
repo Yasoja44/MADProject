@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/b2"
+    tools:context=".RoomServiceAdd">
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="361dp"
+        android:layout_height="34dp"
+        android:background="@drawable/yasoja_text_custom2"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/room_service"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView10" />
+
+    <EditText
+        android:id="@+id/txt_addAmount"
+        android:layout_width="306dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/yasoja_edit_texts"
+        android:ems="10"
+        android:hint="@string/food_amount"
+        android:inputType="textPersonName"
+        android:padding="10dp"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_foodType" />
+
+    <EditText
+        android:id="@+id/txt_addTime"
+        android:layout_width="306dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/yasoja_edit_texts"
+
+        android:ems="10"
+        android:hint="@string/food_time"
+        android:inputType="time"
+        android:paddingLeft="35dp"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_addDate" />
+
+    <EditText
+        android:id="@+id/txt_addDate"
+        android:layout_width="306dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/yasoja_edit_texts"
+        android:ems="10"
+        android:hint="@string/food_date"
+        android:inputType="date"
+        android:paddingLeft="35dp"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_addRoomNo" />
+
+    <EditText
+        android:id="@+id/txt_addRoomNo"
+        android:layout_width="306dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/yasoja_edit_texts"
+        android:ems="10"
+        android:hint="@string/food_room_no"
+        android:inputType="textPersonName"
+        android:padding="10dp"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_addAmount" />
+
+    <TextView
+        android:id="@+id/txt_foodType"
+        android:layout_width="361dp"
+        android:layout_height="28dp"
+        android:background="@android:color/black"
+        android:text="PIZZA"
+        android:textAlignment="center"
+        android:textColor="@color/colorAccent"
+        android:textSize="18sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView24" />
+
+    <Button
+        android:id="@+id/btn_addOrder"
+        android:layout_width="97dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="96dp"
+        android:background="@drawable/yasoja_custom_button"
+        android:onClick="onClick"
+        android:text="ORDER"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_addTime" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="361dp"
+        android:layout_height="95dp"
+        android:scaleType="fitXY"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/hotelpic3" />
+
+    <ImageButton
+        android:id="@+id/imgbtn_AddFoodtimePick"
+        android:layout_width="26dp"
+        android:layout_height="29dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:background="@android:color/white"
+        android:scaleType="centerInside"
+        app:layout_constraintStart_toStartOf="@+id/txt_addTime"
+        app:layout_constraintTop_toTopOf="@+id/txt_addTime"
+        app:srcCompat="@drawable/clockyasoja" />
+
+    <ImageButton
+        android:id="@+id/imgbtn_AddFooddatePick"
+        android:layout_width="24dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:background="@android:color/white"
+        android:scaleType="centerInside"
+        app:layout_constraintStart_toStartOf="@+id/txt_addDate"
+        app:layout_constraintTop_toTopOf="@+id/txt_addDate"
+        app:srcCompat="@drawable/calendaryasoja2" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
